@@ -45,4 +45,5 @@ public class LoginSystemTest
         boolean isLoggedIn = stubLoginSystem.login("", "");
         assertFalse("Login should fail with empty email and password fields.", isLoggedIn);
     }
+    /////
 }
